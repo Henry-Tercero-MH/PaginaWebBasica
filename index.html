@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Web</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>D-WEB</h1>
+        <nav class="navbar">
+            <a href="#herramientas">Home</a>
+            <a href="#lista">Comentarios</a>
+            <a href="#articulos">Articulos</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo-principal">Bienvenidos a Desarrollo Web</h1>
+        <p>Recursos </p>
+        <section class="caja" id="herramientas">
+            <h1 class="titulo-secundario">Herramientas para Desarrollar una Pagina Web</h1>
+            <div class="contenedor">
+                <div>
+                    <h2>Javascript</h2>
+                    <img class="imagen"
+                        src="https://images.unsplash.com/photo-1613490900233-141c5560d75d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="imagen-js">
+                    <p>JS es un lenguaje de programación utilizado para crear contenido interactivo en la web.</p>
+                </div>
+                <div>
+                    <h2>HTML</h2>
+                    <img src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="imagen" alt="imagen-html">
+                    <p>HTML es un lenguaje de marcado utilizado para estructurar el contenido en la web.</p>
+                </div>
+                <div>
+                    <h2>CSS</h2>
+                    <img class="imagen"
+                        src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M 3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGlzZSVDMyVCMW98ZW58MHx8MHx8fDA%3D"
+                        alt="imagen-css">
+                    <p>CSS es un lenguaje de estilo utilizado para describir la presentación de un documento HTML.</p>
+                </div>
+
+            </div>
+
+
+        </section>
+        <section class="caja2">
+            <h2 class="titulo-principal">Enviar Sugerencias</h2>
+            <p>En esta sección puedes compartir tus sugerencias</p>
+
+            <form class="form">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre..." />
+                </div>
+
+                <div class="form-group">
+                    <label for="sugerencia">Sugerencia</label>
+                    <input type="text" id="sugerencia" placeholder="Tu sugerencia..." />
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <h1>Comentarios</h1>
+            <ul id="lista" class="lista"></ul>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Desarrollado por Henry Tercero 2025</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

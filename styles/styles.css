@@ -1,0 +1,181 @@
+:root {
+  --colorPrimario: #190575;
+  --colorSecundario: #1a05753e;
+  --color-texto: #fff;
+  --font: "Montserrat", serif;
+}
+body {
+  background-color: rgb(244, 246, 248);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* vh = viewport height */
+}
+main {
+  flex: 1; /* Hace que ocupe todo el espacio disponible */
+}
+section {
+  width: 100%;
+  padding: 1px;
+}
+header {
+  background-color: var(--colorPrimario);
+  color: var(--color-texto);
+  font-family: var(--font);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-radius: 1%;
+}
+.navbar,
+a {
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  font-family: var(--font);
+  font-size: 24px;
+  color: var(--color-texto);
+  text-decoration: none;
+}
+a:hover {
+  color: gold;
+  font-size: 26px;
+}
+.caja {
+  width: 100%;
+  height: 500px;
+  background-color: var(--colorSecundario);
+}
+.imagen {
+  width: 100%;
+  height: 250px;
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+}
+.contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 5px;
+  overflow: auto;
+}
+.titulo-principal {
+  font-size: 34px;
+  text-align: center;
+  font-family: var(--font);
+}
+.titulo-secundario {
+  font-size: 20px;
+  text-align: center;
+  font-family: var(--font);
+  margin-top: 10px;
+}
+p {
+  font-family: var(--font);
+  text-align: center;
+}
+footer {
+  background-color: var(--colorPrimario);
+  color: var(--color-texto);
+  width: 100%;
+  height: 150px;
+  align-content: center;
+  text-align: center;
+  font-family: var(--font);
+  bottom: 0;
+}
+.form {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #98af17;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.caja3 {
+  display: flex;
+  justify-content: center;
+}
+.fomulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+button {
+  background-color: #190575;
+  width: 300px;
+  height: 30px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.caja2 {
+  width: 100%;
+  height: 500px;
+  background-color: var(--colorSecundario);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; /* Esto centrará también verticalmente */
+}
+
+.lista {
+  list-style: none; /* Quita los puntos */
+  padding: 0;
+  margin: 0 auto;
+  width: 500px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+#lista li {
+  display: flex; /* Filas tipo tabla */
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #999;
+}
+
+#lista li:nth-child(even):not(.header) {
+  background-color: #410707e3; /* Color para filas pares */
+}
+
+#lista li:nth-child(odd):not(.header) {
+  background-color: #ffffff; /* Color para filas impares */
+}
+
+#lista li.header {
+  font-weight: bold;
+  background-color: #4a4a4a;
+  color: white;
+}
