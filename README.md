@@ -1,14 +1,14 @@
 Página Web Básica
 Este proyecto es una página web básica creada con HTML, CSS y JavaScript. El objetivo es practicar y demostrar conceptos esenciales del desarrollo web como la estructura de una página, estilos visuales y manipulación del DOM.
 
-��� Tecnologías Utilizadas
+Tecnologías Utilizadas
 HTML5 – para la estructura del contenido.
 
 CSS3 – para el diseño y estilo visual.
 
 JavaScript – para interacción básica y lógica del frontend.
 
-��� Funcionalidades
+Funcionalidades
 Formulario para agregar elementos a una lista.
 
 Validación de campos para evitar entradas vacías.
@@ -19,7 +19,7 @@ Intercalado de colores en los elementos de la lista para mejorar la legibilidad.
 
 Diseño centrado y limpio, inspirado en prácticas modernas de CSS.
 
-��� Cómo usar
+Cómo usar
 Clona o descarga este repositorio.
 
 Abre el archivo index.html con tu navegador web.
@@ -33,8 +33,8 @@ Disfruta viendo cómo los elementos aparecen dinámicamente con estilos.
 Estructura del Proyecto
 /proyecto/
 ├── index.html         # Página principal
-├── estilos.css        # Estilos de la página
-├── script.js          # Lógica de interacción
+├── styles/styles.css        # Estilos de la página
+├── js/script.js          # Lógica de interacción
 └── README.md          # Este archivo
 Mejores Prácticas Aplicadas
 Uso semántico de HTML.
